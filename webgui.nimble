@@ -1,4 +1,4 @@
-version       = "0.9.0"
+version       = "1.0.0"
 author        = "Juan Carlos"
 description   = "Web Technologies based Crossplatform GUI, modified wrapper for modified webview.h"
 license       = "MIT"
