@@ -49,7 +49,7 @@
 
 import tables, strutils, macros, json, os
 
-const headerC = currentSourcePath().substr(0, high(currentSourcePath()) - 10) & "webview.h"
+const headerC = currentSourcePath().substr(0, high(currentSourcePath()) - 10) & "/webview.h"
 {.passc: "-DWEBVIEW_STATIC -DWEBVIEW_IMPLEMENTATION -I" & headerC.}
 when defined(linux):
   {.passc: "-DWEBVIEW_GTK=1 " & staticExec"pkg-config --cflags gtk+-3.0 webkit2gtk-4.0", passl: staticExec"pkg-config --libs gtk+-3.0 webkit2gtk-4.0".}
