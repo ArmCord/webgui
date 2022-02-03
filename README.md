@@ -1,25 +1,16 @@
-# WebGui
+# LegUI
 
-- Web Technologies based Crossplatform GUI.
-
-![](https://img.shields.io/github/languages/top/juancarlospaco/webgui?style=for-the-badge)
-![](https://img.shields.io/github/stars/juancarlospaco/webgui?style=for-the-badge "Star webgui on GitHub!")
-![](https://img.shields.io/github/languages/code-size/juancarlospaco/webgui?style=for-the-badge)
-![](https://img.shields.io/github/issues-raw/juancarlospaco/webgui?style=for-the-badge "Bugs")
-![](https://img.shields.io/github/issues-pr-raw/juancarlospaco/webgui?style=for-the-badge "PRs")
-![](https://img.shields.io/github/last-commit/juancarlospaco/webgui?style=for-the-badge "Commits")
-![Build](https://github.com/juancarlospaco/webgui/workflows/Build/badge.svg?branch=master)
-
+- Web Technologies based Crossplatform GUI. Fork of WebGui
 
 ## Install
 
 Install webgui using the nimble tool.
 
 ```bash
-$ nimble install webgui
+$ nimble install https://github.com/ArmCord/LegUI.git
 ```
 
-WebGUI also requires that your OS have the GTK+ 3.0 and webkit2gtk 4.0 packages installed
+LegUI also requires that your OS have the GTK+ 3.0 and webkit2gtk 4.0 packages installed
 (Nimble should ask for these system dependencies on Ubuntu).
 
 Generic instructions can be found at:
@@ -33,67 +24,27 @@ In Ubuntu (or Ubuntu-based distributions), these packages can be installed as fo
 $ sudo apt-get install gtk+-3.0 webkit2gtk-4.0 build-essential
 ```
 
-
 ## Documentation
 
 - https://juancarlospaco.github.io/webgui
 - Each push is built with `--panics:on --styleCheck:hint --gc:arc`.
 
+## Apps
 
-## Buit-in Dark Mode
-
-![Dark mode](https://raw.githubusercontent.com/juancarlospaco/webgui/master/docs/darkui.png)
-
-
-## Buit-in Light Mode
-
-![Light mode](https://raw.githubusercontent.com/juancarlospaco/webgui/master/docs/lightui.png)
-
-
-## Apple Mac OS
-
-![](https://raw.githubusercontent.com/juancarlospaco/webgui/master/docs/webgui-mac.png "Apple Mac OS Vanilla")
-
-
-## Real Life Apps
-
-[![Ballena Itcher GUI](https://raw.githubusercontent.com/juancarlospaco/ballena-itcher/master/0.png)](https://github.com/juancarlospaco/ballena-itcher)
-
-
-[![SMNAR GUI](https://raw.githubusercontent.com/juancarlospaco/nim-smnar/master/0.png)](https://github.com/juancarlospaco/nim-smnar)
-
-
-[![Nimble GUI](https://user-images.githubusercontent.com/1189414/78953126-2f055c00-7aae-11ea-9570-4a5fcd5813bc.png)](https://github.com/ThomasTJdev/nim_nimble_gui)
-
-
-![example code](https://user-images.githubusercontent.com/1189414/78956916-36cafd80-7aba-11ea-97eb-75af94c99c80.png)
-
-
-[![Choosenim GUI](https://raw.githubusercontent.com/ThomasTJdev/choosenim_gui/master/private/screenshot1.png)](https://github.com/ThomasTJdev/choosenim_gui)
-
-
-![](https://raw.githubusercontent.com/juancarlospaco/borapp/master/borapp.png)
-
-
-![](https://raw.githubusercontent.com/ThomasTJdev/nmqttgui/master/private/screenshot1.png)
-
-
-# Stars
-
-![](https://starchart.cc/juancarlospaco/webgui.svg "Star WebGUI on GitHub!")
+[![Legcord](https://media.discordapp.net/attachments/785527415970594827/938835164665114654/unknown.png)](https://github.com/ArmCord/Legcord)
 
 
 ## Uninstall
 
 ```bash
-$ nimble uninstall webgui
+$ nimble uninstall LegUI
 ```
 
 
 ## Hello World
 
 ```nim
-import webgui
+import LegUI
 let app = newWebView()
 app.run()
 app.exit()
@@ -104,8 +55,7 @@ app.exit()
 
 - Does it works on Hackintosh or Cracked Windows?.
 
-It may or may not work on *Cracked* operating systems,
-because the core OS libraries are modified on those.
+Probably.
 
 Please try your code on legit operating system before reporting bugs.
 
