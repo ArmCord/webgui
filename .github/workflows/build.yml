@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: jiro4989/setup-nim-action@v1
         with:
-          nim-version: '1.2.0' # default is 'stable'
+          nim-version: '1.2.0' # default is 'stable' r
       - name: Install dependencies
         run: nimble install -y
       - name: Build the project on Linux
