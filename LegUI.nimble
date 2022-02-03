@@ -1,5 +1,5 @@
 version       = "1.0.0"
-author        = "Juan Carlos"
+author        = "smartfrigde & Juan Carlos"
 description   = "Web Technologies based Crossplatform GUI, modified wrapper for modified webview.h"
 license       = "MIT"
 srcDir        = "src"

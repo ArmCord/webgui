@@ -1,4 +1,4 @@
-import ../src/webgui
+import ../src/LegUI
 let app = newWebView()
 app.run()
 app.exit()

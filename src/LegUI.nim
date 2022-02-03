@@ -1,5 +1,5 @@
 ## .. code-block:: nim
-##   import webgui
+##   import LegUI
 ##   let app = newWebView() ## newWebView(dataUriHtmlHeader & "<p>Hello World</p>")
 ##   app.run()              ## newWebView("http://localhost/index.html")
 ##   app.exit()             ## newWebView("index.html")
